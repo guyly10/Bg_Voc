@@ -1,0 +1,355 @@
+﻿header,header
+ставам,To wake up
+влизам,To enter
+вземам,To take
+правя,To do
+закусвам,To eat breakfast
+излизам,To leave/go out
+започвам,to begin
+обядам,To eat lunch
+сврешвам,To finish
+затварям,To close
+срещам,To meet
+пазарувам,To buy/shop
+връщам,To return
+вечерям,To eat dinner
+гледам,To watch
+чета,To read
+пиша,To write
+лягам,To lie down
+спя,To sleep
+помня,To remember
+забравям,To forget
+търся,To search
+намирам,To find
+искам,To want
+включвам,To turn on
+изключвам,To turn off
+отварям,To open
+отключвам,To lock
+заключвам,To unlock
+виждам,To see
+слушам,To listen
+чувам,To hear
+разбирам,To understand
+питам,To ask
+обичам,To love
+харесвам,To like
+целувам,To kiss
+прегръщам,To hug
+каня,To invite
+аз,I
+ти,you
+той,he
+тя,she
+то,it
+ние,we
+вие,you plural
+те,they
+аз съм,I am
+ти си,you are
+той/тя/то е,he/she/it is
+ние  сме,we are
+вие сте,you are plural
+те са,they are
+има,have
+няма,doesn't have
+плодове,fruits
+може би,maybe
+сметана,cream
+билков,herbal
+нещо за ядене,something to eat
+сладолед,ice cream
+кръчма/механа,restaurant
+господине,Mr
+госпожо,Ms
+заповядайте,Welcome
+съжалявам,excuse me
+заето,occupied
+разбира се,of course
+неще за пиене,something to drink
+основни ястия,main dishes
+топли напитки,hot drinks
+студени напитки,cold drinks
+печено,baked
+телешко месо,beef meat
+леща,lentils
+грах,peas
+маслини,olives
+ядки,peanuts
+оцет,vinegar
+круша,pear
+ягода,strawberry
+череша,cherry
+слива,plum
+праскова,peach
+кайсия,apricot
+пъпеш,melon
+диня,water melon
+зеленчуци,vegetables
+домат,tomato
+краставица,cucumber
+морков,carrot
+зеле,cabbage
+който,which
+чушка,pepper
+картоф,potato
+тиквичка,zucchini
+гъба,mushroom
+спанак,spinach
+маруля,lettuce
+купувам,to buy
+пари,money
+точно,exactly
+пак,again
+прясно,fresh
+откъде,from where
+аптека,pharmacy
+банка,bank
+библиотека,library
+блок,block
+болница,hospital
+булевард,boulevard
+кафе,coffee
+кино,movies
+музей,museum
+театър,theater
+улица,street
+хотел,hotel
+супермаркет,supermarket
+университет,university
+площад,square
+пошта,post office
+река,river
+училище,school
+църква,church
+детска градина,kindergarten
+детска площадка,playground
+джамия,mosque
+магазин,store
+мост,bridge
+община,municipality
+пазар,market
+паметник,monument
+парк,park
+живея,to live
+във,in
+на,on
+до,next to
+близо до,near to
+пред,before
+зад,behind
+между,between
+топка,ball
+кутия,box
+под,above
+вървете направо,go straight
+завийте наляво,turn left
+завийте надясно,turn right
+души,people
+внук,grand child
+семейство,family
+родители,parents
+баща,father
+майка,mother
+деца,kids
+син,son
+дъщеря,daughter
+съпруг,husband
+съпруга,wife
+брат,brother
+сестра,sister
+чичо,uncle
+леля,aunt
+братовчед,cousin
+племенник,nephew
+дядо,grandfather
+баба,grandmother
+внучка,grand daughter
+ми,mine
+ти possessive,yours
+му,his
+и,hers
+ни,ours
+ви,yours plural
+им,theirs
+стол,chair
+маса,table
+шкаф,closet
+печка,oven
+хладилник,fridge
+пералня,washing machine
+легло,bed
+диван,sofa
+спалня,bedroom
+гардероб,wardrobe
+лампа,light
+килим,carpet
+вана,shower
+мивка,sink
+душ,standing shower
+сапун,soap
+врата,door
+прозорец,hall
+млад,young
+стар,old
+добър,good
+лош,bad
+висок,tall
+нисок,short
+слаб,thin
+пълен,thick
+работлив,diligent
+мързелив,lazy
+голям,big
+малък,small
+умен,smart
+глупав,stupid
+красив,handsome
+грозен,ugly
+модерен,modern
+удобен,comfortable
+скъп,expensive
+евтин,cheap
+уютен,util
+кърпа,towel
+тоалетна хартия,toilet paper
+обзаведен,furnished
+съсед,neighbour
+мил,nice
+първи,first
+втори,second
+трети,third
+четвърти,fourth
+пети,fifth
+шести,sixth
+седми,seventh
+осми,eighth
+девети,ninth
+десети,tenth
+хол,living room
+снимка,photo
+картина,painting
+вестник,newspaper
+вилица,fork
+лъжица,spoon
+чаша,cup
+чиния,plate
+нож,knife
+бюро,desk
+Неделя,Sunday
+Понеделник,Monday
+Вторник,Tuesday
+Сряда,Wednesday
+Четвъртък,Thursday
+Петък,Friday
+Събота,Saturday
+студено е,it's cold
+хладно е,it's freezing
+топло е,it's warm
+Слънчево е,it's sunny
+Горещо е,it's hot
+Облачно е,it's cloudy
+Дъждовно е,it's raining
+мъгла,fog
+вятър,wind
+Вали сняг,it's snowing
+духа вятър,blowing wind
+лято,summer
+пролет,spring
+есен,autumn
+зима,winter
+половина,half
+часа,hour
+от,from
+север,north
+изток,east
+юг,south
+запад,west
+отивам,to go
+Розов,pink
+Червен,red
+Жълт,yellow
+Оранжев,orange
+Лилав,purple
+Син color,blue
+Зелен,green
+Кафяв,brown
+Черен,black
+Сив,gray
+Бял,white
+дрехи,cloths
+палто,coat
+яке,jacket
+рокля,dress
+панталони,pants
+риза,shirt
+дънки,jeans
+пуловер,sweatshirt
+дъждобран,rain coat
+шапка,hat
+тениска,t shirt
+пола,skirt
+блуаза,blouse
+обувки,shoes
+сандали,sandals
+маратонки,running shoes
+джапанки,flip flops
+боти,boots
+чорапи,socks
+ботуши,winter boots
+шал,scarf
+ръкавици,gloves
+пижама,pajamas
+очила,glasses
+слънчеви очила,sun glasses
+какво,what
+как,how
+кога,when
+кой,who
+колко,how much
+къде,where
+трягвам,to start
+тогава,then
+че,that
+снаха,daughter in law
+значение,value
+сватба,wedding
+свекър,father in law
+гладен,hungry
+чистя,clean
+доволен,satisfied
+идвам,to come
+веднага,immediately
+приказка,fairy tale
+глава,head
+нос,nose
+коса,hair
+уста,mouth
+ухо,ear
+око,eye
+ръка,hand
+сърце,heart
+врат,neck
+коляно,knee
+крак,leg
+стомах,stomach
+зъб ,tooth
+гърди,chest
+гърло,throat
+уши,ears
+очи,eyes
+навън,outside
+мислия,to think
+орехи,walnuts
+чужбина,abroad
+дори,even
+подаръци,gifts
+чакам,to wait
+цяла,whole
+винаги,always
+обикновено,usually
+често,often
+понякога,sometimes
+рядко,rarely
+никога,never
