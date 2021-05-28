@@ -12,4 +12,16 @@
         android:title="Verbs"
         app:showAsAction="never"
         android:onClick="VerbsClicked"/>
+
+    <item
+        android:id="@+id/addWords"
+        android:title="Add Words"
+        app:showAsAction="never"
+        android:onClick="AddWordsToCsv"/>
+
+    <item
+        android:id="@+id/customPractice"
+        android:title="Load User Words"
+        app:showAsAction="never"
+        android:onClick="OnLoadUserWordsClicked"/>
 </menu>
