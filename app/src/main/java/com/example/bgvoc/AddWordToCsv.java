@@ -36,8 +36,7 @@ public class AddWordToCsv extends AppCompatActivity {
     }
 
     private void loadCreateUserWords() {
-        File root = Environment.getExternalStorageDirectory();
-        userWords = new File(root, fileName);
+        userWords = new File(getFilesDir(), fileName);
         if (!userWords.exists()) {
             try {
                 userWords.createNewFile();

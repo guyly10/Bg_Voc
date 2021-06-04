@@ -39,12 +39,11 @@ public class Vocabulary {
         }
     }
 
-    public void loadUserWords() throws IOException {
+    public void loadUserWords(MainActivity mainActivity) throws IOException {
         BulgarianToEnglish.clear();
         EnglishToBulgarian.clear();
 
-        File root = Environment.getExternalStorageDirectory();
-        File userWords = new File(root, userWordsFileName);
+        File userWords = new File(mainActivity.getFilesDir(), userWordsFileName);
 
         FileReader fr = new FileReader(userWords);
         BufferedReader br = new BufferedReader(fr);

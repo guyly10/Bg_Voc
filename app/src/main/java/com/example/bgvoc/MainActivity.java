@@ -158,7 +158,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void OnLoadUserWordsClicked(MenuItem item) throws IOException {
-        Vocabulary.loadUserWords();
+        Vocabulary.loadUserWords(this);
         wordToTranslate.setText(chooseRandomWord());
         updateWordCount();
         answer.setVisibility(View.INVISIBLE);
