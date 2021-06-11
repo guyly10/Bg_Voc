@@ -1,0 +1,356 @@
+﻿header,header,header
+аз,I,noun
+ти,you,noun
+той,he,noun
+тя,she,noun
+то,it,noun
+ние,we,noun
+вие,you plural,noun
+те,they,noun
+аз съм,I am,noun
+ти си,you are,noun
+той/тя/то е,he/she/it is,noun
+ние сме,we are, noun
+вие сте,you are plural,noun
+те са,they are,noun
+има,have,noun
+няма,doesn't have,noun
+плодове,fruits,food
+може би,maybe,food
+сметана,cream,food
+билков,herbal,food
+нещо за ядене,something to eat,food
+сладолед,ice cream,food
+кръчма/механа,restaurant,food
+господине,Mr,noun
+госпожо,Ms,noun
+заповядайте,Welcome,gestures
+съжалявам,excuse me,gestures
+заето,occupied,adjective
+разбира се,of course,noun
+неще за пиене,something to drink,food
+основни ястия,main dishes,food
+топли напитки,hot drinks,food
+студени напитки,cold drinks,food
+печено,baked,food
+телешко месо,beef meat,food
+леща,lentils,vegetables
+грах,peas,vegetables
+маслини,olives,vegetables
+ядки,peanuts,fruits
+оцет,vinegar,fruits
+круша,pear,fruits
+ягода,strawberry,fruits
+череша,cherry,fruits
+слива,plum,fruits
+праскова,peach,fruits
+кайсия,apricot,fruits
+пъпеш,melon,fruits
+диня,water melon,fruits
+зеленчуци,vegetables,vegetables
+домат,tomato,vegetables
+краставица,cucumber,vegetables
+морков,carrot,vegetables
+зеле,cabbage,vegetables
+който,which,noun
+чушка,pepper,vegetables
+картоф,potato,vegetables
+тиквичка,zucchini,vegetables
+гъба,mushroom,vegetables
+спанак,spinach,vegetables
+маруля,lettuce,vegetables
+пари,money,noun
+точно,exactly,noun
+пак,again,noun
+прясно,fresh,adjective
+откъде,from where,questions
+аптека,pharmacy,city
+банка,bank,city
+библиотека,library,city
+блок,block,city
+болница,hospital,city
+булевард,boulevard,city
+кафе,coffee,city
+кино,movies,city
+музей,museum,city
+театър,theater,city
+улица,street,city
+хотел,hotel,city
+супермаркет,supermarket,city
+университет,university,city
+площад,square,city
+пошта,post office,city
+река,river,city
+училище,school,city
+църква,church,city
+детска градина,kindergarten,city
+детска площадка,playground,city
+джамия,mosque,city
+магазин,store,city
+мост,bridge,city
+община,municipality,city
+пазар,market,city
+паметник,monument,city
+парк,park,city
+във,in,preposition
+на,on,preposition
+до,next to,preposition
+близо до,near to,preposition
+пред,before,preposition
+зад,behind,preposition
+между,between,preposition
+топка,ball,noun
+кутия,box,noun
+под,above,preposition
+вървете направо,go straight,directions
+завийте наляво,turn left,directions
+завийте надясно,turn right,directions
+души,people,noun
+внук,grand child,family
+семейство,family,family
+родители,parents,family
+баща,father,family
+майка,mother,family
+деца,kids,family
+син,son,family
+дъщеря,daughter,family
+съпруг,husband,family
+съпруга,wife,family
+брат,brother,family
+сестра,sister,family
+чичо,uncle,family
+леля,aunt,family
+братовчед,cousin,family
+племенник,nephew,family
+дядо,grandfather,family
+баба,grandmother,family
+внучка,grand daughter,family
+ми,mine,possessive
+ти possessive,yours,possessive
+му,his,possessive
+и,hers,possessive
+ни,ours,possessive
+ви,yours plural,possessive
+им,theirs,possessive
+стол,chair,house
+маса,table,house
+шкаф,closet,house
+печка,oven,house
+хладилник,fridge,house
+пералня,washing machine,house
+легло,bed,house
+диван,sofa,house
+спалня,bedroom,house
+гардероб,wardrobe,house
+лампа,light,house
+килим,carpet,house
+вана,shower,house
+мивка,sink,house
+душ,standing shower,house
+сапун,soap,house
+врата,door,house
+прозорец,hall,house
+млад,young,adjective
+стар,old,adjective
+добър,good,adjective
+лош,bad,adjective
+висок,tall,adjective
+нисок,short,adjective
+слаб,thin,adjective
+пълен,thick,adjective
+работлив,diligent,adjective
+мързелив,lazy,adjective
+голям,big,adjective
+малък,small,adjective
+умен,smart,adjective
+глупав,stupid,adjective
+красив,handsome,adjective
+грозен,ugly,adjective
+модерен,modern,adjective
+удобен,comfortable,adjective
+скъп,expensive,adjective
+евтин,cheap,adjective
+уютен,util,adjective
+кърпа,towel,house
+тоалетна хартия,toilet paper,house
+обзаведен,furnished,house
+съсед,neighbour,house
+мил,nice,adjective
+първи,first,counting
+втори,second,counting
+трети,third,counting
+четвърти,fourth,counting
+пети,fifth,counting
+шести,sixth,counting
+седми,seventh,counting
+осми,eighth,counting
+девети,ninth,counting
+десети,tenth,counting
+хол,living room,house
+снимка,photo,house
+картина,painting,house
+вестник,newspaper,house
+вилица,fork,silverware
+лъжица,spoon,silverware
+чаша,cup,silverware
+чиния,plate,silverware
+нож,knife,silverware
+бюро,desk,house
+Неделя,Sunday,days
+Понеделник,Monday,days
+Вторник,Tuesday,days
+Сряда,Wednesday,days
+Четвъртък,Thursday,days
+Петък,Friday,days
+Събота,Saturday,days
+студено е,it's cold,weather
+хладно е,it's freezing,weather
+топло е,it's warm,weather
+Слънчево е,it's sunny,weather
+Горещо е,it's hot,weather
+Облачно е,it's cloudy,weather
+Дъждовно е,it's raining,weather
+мъгла,fog,weather
+вятър,wind,weather
+Вали сняг,it's snowing,weather
+духа вятър,blowing wind,weather
+лято,summer,weather
+пролет,spring,weather
+есен,autumn,weather
+зима,winter,weather
+половина,half,clock
+часа,hour,clock
+от,from,directions
+север,north,directions
+изток,east,directions
+юг,south,directions
+запад,west,directions
+Розов,pink,colors
+Червен,red,colors
+Жълт,yellow,colors
+Оранжев,orange,colors
+Лилав,purple,colors
+Син color,blue,colors
+Зелен,green,colors
+Кафяв,brown,colors
+Черен,black,colors
+Сив,gray,colors
+Бял,white,colors
+дрехи,cloths,clothes
+палто,coat,clothes
+яке,jacket,clothes
+рокля,dress,clothes
+панталони,pants,clothes
+риза,shirt,clothes
+дънки,jeans,clothes
+пуловер,sweatshirt,clothes
+дъждобран,rain coat,clothes
+шапка,hat,clothes
+тениска,t shirt,clothes
+пола,skirt,clothes
+блуаза,blouse,clothes
+обувки,shoes,clothes
+сандали,sandals,clothes
+маратонки,running shoes,clothes
+джапанки,flip flops,clothes
+боти,boots,clothes
+чорапи,socks,clothes
+ботуши,winter boots,clothes
+шал,scarf,clothes
+ръкавици,gloves,clothes
+пижама,pajamas,clothes
+очила,glasses,clothes
+слънчеви очила,sun glasses,clothes
+какво,what,questions
+как,how,questions
+кога,when,questions
+кой,who,questions
+колко,how much,questions
+къде,where,questions
+тогава,then,questions
+че,that,noun
+снаха,daughter in law,family
+значение,value,noun
+сватба,wedding,family
+свекър,father in law,family
+гладен,hungry,adjective
+чистя,clean,adjective
+доволен,satisfied,adjective
+веднага,immediately,noun
+приказка,fairy tale,noun
+глава,head,body
+нос,nose,body
+коса,hair,body
+уста,mouth,body
+ухо,ear,body
+око,eye,body
+ръка,hand,body
+сърце,heart,body
+врат,neck,body
+коляно,knee,body
+крак,leg,body
+стомах,stomach,body
+зъб,tooth,body
+гърди,chest,body
+гърло,throat,body
+уши,ears,body
+очи,eyes,body
+навън,outside,noun
+орехи,walnuts,food
+чужбина,abroad,noun
+дори,even,noun
+подаръци,gifts,noun
+цяла,whole,noun
+винаги,always,noun
+обикновено,usually,noun
+често,often,noun
+понякога,sometimes,noun
+рядко,rarely,noun
+никога,never,noun
+ставам,To wake up,verb
+влизам,To enter,verb
+вземам,To take,verb
+правя,To do,verb
+закусвам,To eat breakfast,verb
+излизам,To leave/go out,verb
+започвам,to begin,verb
+обядвам,To eat lunch,verb
+завършвам,To finish,verb
+затварям,To close,verb
+срещам,To meet,verb
+пазарувам,To buy/shop,verb
+връщам,To return,verb
+вечерям,To eat dinner,verb
+гледам,To watch,verb
+чета,To read,verb
+пиша,To write,verb
+лягам,To lie down,verb
+спя,To sleep,verb
+помня,To remember,verb
+забравям,To forget,verb
+търся,To search,verb
+намирам,To find,verb
+искам,To want,verb
+включвам,To turn on,verb
+изключвам,To turn off,verb
+отварям,To open,verb
+отключвам,To lock,verb
+заключвам,To unlock,verb
+виждам,To see,verb
+слушам,To listen,verb
+чувам,To hear,verb
+разбирам,To understand,verb
+питам,To ask,verb
+обичам,To love,verb
+харесвам,To like,verb
+целувам,To kiss,verb
+прегръщам,To hug,verb
+каня,To invite,verb
+купувам,to buy,verb
+живея,to live,verb
+отивам,to go,verb
+трягвам,to start,verb
+идвам,to come,verb
+мисля,to think,verb
+чакам,to wait,verb
+трябвам,to need,verb
