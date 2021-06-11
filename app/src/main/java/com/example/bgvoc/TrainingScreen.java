@@ -36,6 +36,7 @@ public class TrainingScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_training_screen);
+        getSupportActionBar().hide();
         wordToTranslate = findViewById(R.id.wordToTranslate);
         userInput = findViewById(R.id.userInput);
         wrongAnswer = findViewById(R.id.wrongAnswer);
@@ -152,5 +153,11 @@ public class TrainingScreen extends AppCompatActivity {
         updateWordCount();
         answer.setVisibility(View.INVISIBLE);
         Toast.makeText(this, "User words loaded", Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void finish() {
+        super.finish();
+        overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
     }
 }

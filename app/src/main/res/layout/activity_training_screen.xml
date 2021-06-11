@@ -21,7 +21,8 @@
         android:text="Show Answer"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="80px"
-        android:onClick="ShowAnswerClicked"/>
+        android:onClick="ShowAnswerClicked"
+        android:backgroundTint="@color/green"/>
 
     <TextView
         android:id="@+id/answer"
@@ -67,6 +68,7 @@
         android:layout_gravity="center_horizontal"
         android:onClick="NextWordClicked"
         android:text="Next Word"
-        android:layout_marginTop="20px"/>
+        android:layout_marginTop="20px"
+        android:backgroundTint="@color/green"/>
 
 </LinearLayout>

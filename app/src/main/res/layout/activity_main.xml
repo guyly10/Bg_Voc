@@ -18,7 +18,8 @@
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp">
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -30,9 +31,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:text="All words"
+                android:text="General"
                 android:onClick="setTrainingAccordingToSelection"
-                android:transitionName="noun"/>
+                android:transitionName="noun"
+                android:backgroundTint="@color/green"/>
 
             <Button
                 android:id="@+id/verbButton"
@@ -41,7 +43,8 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Verbs"
                 android:onClick="setTrainingAccordingToSelection"
-                android:transitionName="verb"/>
+                android:transitionName="verb"
+                android:backgroundTint="@color/green"/>
 
             <Button
                 android:id="@+id/foodButton"
@@ -50,7 +53,8 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Food"
                 android:onClick="setTrainingAccordingToSelection"
-                android:transitionName="food"/>
+                android:transitionName="food"
+                android:backgroundTint="@color/green"/>
 
             <Button
                 android:id="@+id/adjectiveButton"
@@ -59,7 +63,8 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Adjectives"
                 android:onClick="setTrainingAccordingToSelection"
-                android:transitionName="adjective"/>
+                android:transitionName="adjective"
+                android:backgroundTint="@color/green"/>
 
             <Button
                 android:id="@+id/fruitsButton"
@@ -68,7 +73,8 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Fruits"
                 android:onClick="setTrainingAccordingToSelection"
-                android:transitionName="fruits"/>
+                android:transitionName="fruits"
+                android:backgroundTint="@color/green"/>
 
             <Button
                 android:id="@+id/vegetablesButton"
@@ -77,7 +83,8 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Vegetables"
                 android:onClick="setTrainingAccordingToSelection"
-                android:transitionName="vegetables"/>
+                android:transitionName="vegetables"
+                android:backgroundTint="@color/green"/>
 
             <Button
                 android:id="@+id/questionsButton"
@@ -86,7 +93,8 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Questions"
                 android:onClick="setTrainingAccordingToSelection"
-                android:transitionName="questions"/>
+                android:transitionName="questions"
+                android:backgroundTint="@color/green"/>
 
             <Button
                 android:id="@+id/cityButton"
@@ -95,7 +103,8 @@
                 android:layout_gravity="center_horizontal"
                 android:text="At the City"
                 android:onClick="setTrainingAccordingToSelection"
-                android:transitionName="city"/>
+                android:transitionName="city"
+                android:backgroundTint="@color/green"/>
 
             <Button
                 android:id="@+id/prepositionButton"
@@ -104,7 +113,8 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Prepositions"
                 android:onClick="setTrainingAccordingToSelection"
-                android:transitionName="preposition"/>
+                android:transitionName="preposition"
+                android:backgroundTint="@color/green"/>
 
             <Button
                 android:id="@+id/weatherButton"
@@ -113,7 +123,8 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Weather"
                 android:onClick="setTrainingAccordingToSelection"
-                android:transitionName="weather"/>
+                android:transitionName="weather"
+                android:backgroundTint="@color/green"/>
 
             <Button
                 android:id="@+id/directionsButton"
@@ -122,7 +133,8 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Directions"
                 android:onClick="setTrainingAccordingToSelection"
-                android:transitionName="directions"/>
+                android:transitionName="directions"
+                android:backgroundTint="@color/green"/>
 
             <Button
                 android:id="@+id/familyButton"
@@ -131,7 +143,8 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Family"
                 android:onClick="setTrainingAccordingToSelection"
-                android:transitionName="family"/>
+                android:transitionName="family"
+                android:backgroundTint="@color/green"/>
 
             <Button
                 android:id="@+id/possessiveButton"
@@ -140,7 +153,8 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Possesive"
                 android:onClick="setTrainingAccordingToSelection"
-                android:transitionName="possessive"/>
+                android:transitionName="possessive"
+                android:backgroundTint="@color/green"/>
 
             <Button
                 android:id="@+id/houseButton"
@@ -149,7 +163,8 @@
                 android:layout_gravity="center_horizontal"
                 android:text="At the house"
                 android:onClick="setTrainingAccordingToSelection"
-                android:transitionName="house"/>
+                android:transitionName="house"
+                android:backgroundTint="@color/green"/>
 
             <Button
                 android:id="@+id/countingButton"
@@ -158,7 +173,8 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Counting"
                 android:onClick="setTrainingAccordingToSelection"
-                android:transitionName="counting"/>
+                android:transitionName="counting"
+                android:backgroundTint="@color/green"/>
 
             <Button
                 android:id="@+id/silverwareButton"
@@ -167,7 +183,8 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Silverware"
                 android:onClick="setTrainingAccordingToSelection"
-                android:transitionName="silverware"/>
+                android:transitionName="silverware"
+                android:backgroundTint="@color/green"/>
 
             <Button
                 android:id="@+id/daysButton"
@@ -176,7 +193,8 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Days"
                 android:onClick="setTrainingAccordingToSelection"
-                android:transitionName="days"/>
+                android:transitionName="days"
+                android:backgroundTint="@color/green"/>
 
             <Button
                 android:id="@+id/clockButton"
@@ -185,7 +203,8 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Clock"
                 android:onClick="setTrainingAccordingToSelection"
-                android:transitionName="clock"/>
+                android:transitionName="clock"
+                android:backgroundTint="@color/green"/>
 
             <Button
                 android:id="@+id/colorsButton"
@@ -194,7 +213,8 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Colors"
                 android:onClick="setTrainingAccordingToSelection"
-                android:transitionName="colors"/>
+                android:transitionName="colors"
+                android:backgroundTint="@color/green"/>
 
             <Button
                 android:id="@+id/clothesButton"
@@ -203,7 +223,8 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Clothes"
                 android:onClick="setTrainingAccordingToSelection"
-                android:transitionName="clothes"/>
+                android:transitionName="clothes"
+                android:backgroundTint="@color/green"/>
 
             <Button
                 android:id="@+id/bodyButton"
@@ -212,7 +233,8 @@
                 android:layout_gravity="center_horizontal"
                 android:text="Body parts"
                 android:onClick="setTrainingAccordingToSelection"
-                android:transitionName="body"/>
+                android:transitionName="body"
+                android:backgroundTint="@color/green"/>
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
