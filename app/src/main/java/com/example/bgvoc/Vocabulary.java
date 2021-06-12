@@ -13,8 +13,8 @@ import java.util.Hashtable;
 
 public class Vocabulary {
 
-    public Hashtable<String, String> BulgarianToEnglish = new Hashtable<>();
-    public Hashtable<String, String> EnglishToBulgarian = new Hashtable<>();
+    private Hashtable<String, Hashtable<String, String>> dataAccordingToCategoriesBgToEng = new Hashtable<>();
+    private Hashtable<String, Hashtable<String, String>> dataAccordingToCategoriesEngToBg = new Hashtable<>();
     String userWordsFileName = "userAddedVocs.csv";
 
     public Vocabulary(InputStream inputStream) throws IOException {
@@ -23,8 +23,7 @@ public class Vocabulary {
     }
 
     public void loadWordsToPractice(InputStream inputStream) throws IOException {
-        BulgarianToEnglish.clear();
-        EnglishToBulgarian.clear();
+
         BufferedReader br = new BufferedReader(new InputStreamReader(inputStream));
         String line;
         String headerLine = br.readLine();
@@ -33,29 +32,26 @@ public class Vocabulary {
             String str[] = line.split(",");
             if (!str[0].equals("")) {
                 String arr[] = str;
-                BulgarianToEnglish.put(arr[0].toLowerCase(), arr[1]);
-                EnglishToBulgarian.put(arr[1].toLowerCase(), arr[0]);
+                if (dataAccordingToCategoriesBgToEng.containsKey(arr[2])) {
+                    dataAccordingToCategoriesBgToEng.get(arr[2]).put(arr[0].toLowerCase(), arr[1]);
+                    dataAccordingToCategoriesEngToBg.get(arr[2]).put(arr[1].toLowerCase(), arr[0]);
+                } else {
+                    Hashtable<String, String> newWordsPair = new Hashtable<>();
+                    newWordsPair.put(arr[0].toLowerCase(), arr[1]);
+                    dataAccordingToCategoriesBgToEng.put(arr[2], (Hashtable<String, String>) newWordsPair.clone());
+                    newWordsPair.clear();
+                    newWordsPair.put(arr[1].toLowerCase(), arr[0]);
+                    dataAccordingToCategoriesEngToBg.put(arr[2], (Hashtable<String, String>) newWordsPair.clone());
+                }
             }
         }
     }
 
-    public void loadUserWords(MainActivity mainActivity) throws IOException {
-        BulgarianToEnglish.clear();
-        EnglishToBulgarian.clear();
+    public Hashtable<String, String> getWordsListAccordingToUserSelectionBgToEng(String selectedTraining) {
+        return dataAccordingToCategoriesBgToEng.get(selectedTraining);
+    }
 
-        File userWords = new File(mainActivity.getFilesDir(), userWordsFileName);
-
-        FileReader fr = new FileReader(userWords);
-        BufferedReader br = new BufferedReader(fr);
-        String line;
-
-        while ((line = br.readLine()) != null) {
-            String str[] = line.split(",");
-            if (!str[0].equals("")) {
-                String arr[] = str;
-                BulgarianToEnglish.put(arr[0].toLowerCase(), arr[1]);
-                EnglishToBulgarian.put(arr[1].toLowerCase(), arr[0]);
-            }
-        }
+    public Hashtable<String, String> getWordsListAccordingToUserSelectionEngToBg(String selectedTraining) {
+        return dataAccordingToCategoriesEngToBg.get(selectedTraining);
     }
 }

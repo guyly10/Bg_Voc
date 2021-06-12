@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,65 +8,244 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/wordCount"
+        android:id="@+id/chooseLessonTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="100px"/>
+        android:layout_marginTop="100px"
+        android:text="Choose a lesson"
+        android:textSize="15dp" />
 
-    <Button
-        android:id="@+id/showAnswer"
-        android:layout_width="wrap_content"
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Show Answer"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="80px"
-        android:onClick="ShowAnswerClicked"/>
+        android:layout_marginBottom="20dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal">
 
-    <TextView
-        android:id="@+id/answer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="20px"
-        android:onClick="OnWordToTranslateClicked"
-        android:drawableRight="@drawable/soundimg"
-        android:drawablePadding="10px"/>
+            <Button
+                android:id="@+id/nounButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="General"
+                android:onClick="setTrainingAccordingToSelection"
+                android:transitionName="noun"
+                android:backgroundTint="@color/green"/>
 
-    <TextView
-        android:id="@+id/wordToTranslate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:textSize="30sp"
-        android:layout_marginTop="50px"/>
+            <Button
+                android:id="@+id/verbButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Verbs"
+                android:onClick="setTrainingAccordingToSelection"
+                android:transitionName="verb"
+                android:backgroundTint="@color/green"/>
 
-    <EditText
-        android:id="@+id/userInput"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text=""/>
+            <Button
+                android:id="@+id/transitiveVerbsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Transitive Verbs"
+                android:onClick="setTrainingAccordingToSelection"
+                android:transitionName="transitive verbs"
+                android:backgroundTint="@color/green"/>
 
-    <TextView
-        android:id="@+id/wrongAnswer"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:textColor="#FF0000"
-        android:layout_marginTop="40px"/>
+            <Button
+                android:id="@+id/foodButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Food"
+                android:onClick="setTrainingAccordingToSelection"
+                android:transitionName="food"
+                android:backgroundTint="@color/green"/>
 
-    <Button
-        android:id="@+id/checkTranslation"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_row="0"
-        android:layout_column="1"
-        android:layout_gravity="center_horizontal"
-        android:onClick="NextWordClicked"
-        android:text="Next Word"
-        android:layout_marginTop="20px"/>
+            <Button
+                android:id="@+id/adjectiveButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Adjectives"
+                android:onClick="setTrainingAccordingToSelection"
+                android:transitionName="adjective"
+                android:backgroundTint="@color/green"/>
 
+            <Button
+                android:id="@+id/fruitsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Fruits"
+                android:onClick="setTrainingAccordingToSelection"
+                android:transitionName="fruits"
+                android:backgroundTint="@color/green"/>
+
+            <Button
+                android:id="@+id/vegetablesButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Vegetables"
+                android:onClick="setTrainingAccordingToSelection"
+                android:transitionName="vegetables"
+                android:backgroundTint="@color/green"/>
+
+            <Button
+                android:id="@+id/questionsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Questions"
+                android:onClick="setTrainingAccordingToSelection"
+                android:transitionName="questions"
+                android:backgroundTint="@color/green"/>
+
+            <Button
+                android:id="@+id/cityButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="At the City"
+                android:onClick="setTrainingAccordingToSelection"
+                android:transitionName="city"
+                android:backgroundTint="@color/green"/>
+
+            <Button
+                android:id="@+id/prepositionButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Prepositions"
+                android:onClick="setTrainingAccordingToSelection"
+                android:transitionName="preposition"
+                android:backgroundTint="@color/green"/>
+
+            <Button
+                android:id="@+id/weatherButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Weather"
+                android:onClick="setTrainingAccordingToSelection"
+                android:transitionName="weather"
+                android:backgroundTint="@color/green"/>
+
+            <Button
+                android:id="@+id/directionsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Directions"
+                android:onClick="setTrainingAccordingToSelection"
+                android:transitionName="directions"
+                android:backgroundTint="@color/green"/>
+
+            <Button
+                android:id="@+id/familyButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Family"
+                android:onClick="setTrainingAccordingToSelection"
+                android:transitionName="family"
+                android:backgroundTint="@color/green"/>
+
+            <Button
+                android:id="@+id/possessiveButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Possesive"
+                android:onClick="setTrainingAccordingToSelection"
+                android:transitionName="possessive"
+                android:backgroundTint="@color/green"/>
+
+            <Button
+                android:id="@+id/houseButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="At the house"
+                android:onClick="setTrainingAccordingToSelection"
+                android:transitionName="house"
+                android:backgroundTint="@color/green"/>
+
+            <Button
+                android:id="@+id/countingButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Counting"
+                android:onClick="setTrainingAccordingToSelection"
+                android:transitionName="counting"
+                android:backgroundTint="@color/green"/>
+
+            <Button
+                android:id="@+id/silverwareButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Silverware"
+                android:onClick="setTrainingAccordingToSelection"
+                android:transitionName="silverware"
+                android:backgroundTint="@color/green"/>
+
+            <Button
+                android:id="@+id/daysButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Days"
+                android:onClick="setTrainingAccordingToSelection"
+                android:transitionName="days"
+                android:backgroundTint="@color/green"/>
+
+            <Button
+                android:id="@+id/clockButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Clock"
+                android:onClick="setTrainingAccordingToSelection"
+                android:transitionName="clock"
+                android:backgroundTint="@color/green"/>
+
+            <Button
+                android:id="@+id/colorsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Colors"
+                android:onClick="setTrainingAccordingToSelection"
+                android:transitionName="colors"
+                android:backgroundTint="@color/green"/>
+
+            <Button
+                android:id="@+id/clothesButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Clothes"
+                android:onClick="setTrainingAccordingToSelection"
+                android:transitionName="clothes"
+                android:backgroundTint="@color/green"/>
+
+            <Button
+                android:id="@+id/bodyButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Body parts"
+                android:onClick="setTrainingAccordingToSelection"
+                android:transitionName="body"
+                android:backgroundTint="@color/green"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
 </LinearLayout>
