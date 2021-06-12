@@ -274,7 +274,7 @@
 сватба,wedding,family
 свекър,father in law,family
 гладен,hungry,adjective
-чистя,clean,adjective
+чистя,to clean,verb
 доволен,satisfied,adjective
 веднага,immediately,noun
 приказка,fairy tale,noun
@@ -315,7 +315,7 @@
 излизам,To leave/go out,verb
 започвам,to begin,verb
 обядвам,To eat lunch,verb
-завършвам,To finish,verb
+завършвам,To finish (1),verb
 затварям,To close,verb
 срещам,To meet,verb
 пазарувам,To buy/shop,verb
@@ -354,3 +354,53 @@
 мисля,to think,verb
 чакам,to wait,verb
 трябвам,to need,verb
+взема,to take,transitive verbs
+изляза,to exit,transitive verbs
+затворя,to close,transitive verbs
+отворя,to open,transitive verbs
+закъснея,to be late,transitive verbs
+отида,to go,transitive verbs
+забравя,to forget,transitive verbs
+срещна се,to meet,transitive verbs
+дойда,to come,transitive verbs
+легна си,to lie down,transitive verbs
+стана,to wake up,transitive verbs
+върна се,to return,transitive verbs
+замина,to leave (1),transitive verbs
+разбера,to understand,transitive verbs
+поканя,to invite,transitive verbs
+помогна,to help,transitive verbs
+дам,to give,transitive verbs
+тръгна,to leave (2),transitive verbs
+започна,to begin,transitive verbs
+обадя се,to call,transitive verbs
+пристигна,to arrive,transitive verbs
+намеря,to find,transitive verbs
+платя,to pay,transitive verbs
+свърша,to finish,transitive verbs
+кажа,to say,transitive verbs
+видя,to see,transitive verbs
+използвам,to use,verb
+закъснявам,to be late,verb
+заминавам,to leave,verb
+помагам,to help,verb
+пристигам,to arrive,verb
+плащам,to pay,verb
+свършвам,to finish (2),verb
+казвам,to say,verb
+давам,to give,verb
+обаждам се,to call,verb
+храна,food,food
+тук,here,noun
+услуги,services,noun
+богат,rich,adjective
+беден,poor,adjective
+чисто,clean,adjective
+повече,more,noun
+само,just,noun
+като,such as,noun
+шум,noise,noun
+наеман,to rent,verb
+палатка,tent,noun
+поръчвам,to order,verb
+картичка,post card,noun
